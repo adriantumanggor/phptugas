@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
+=======
+
+<!DOCTYPE html>
+<html lang="en">
+>>>>>>> fea2b45 (Default)
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Data Anggota</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<<<<<<< HEAD
 
 <body>
     <header>
@@ -31,6 +38,17 @@
                     <div class="control">
                         <!-- Tambahkan atribut name untuk input ID Anggota -->
                         <input class="input" type="number" id="idInput" name="id" placeholder="Masukkan ID Anggota">
+=======
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Update Data Anggota</h1>
+            <form action="update-form.php" method="GET">
+                <div class="field">
+                    <label class="label">Masukkan Nomor Anggota yang Ingin Diupdate:</label>
+                    <div class="control">
+                        <input class="input" type="number" name="id" placeholder="Masukkan ID Anggota">
+>>>>>>> fea2b45 (Default)
                     </div>
                 </div>
                 <div class="field">
@@ -41,8 +59,13 @@
             </form>
         </div>
     </section>
+<<<<<<< HEAD
     <script src="script.js"></script>
 
 </body>
 
 </html>
+=======
+</body>
+</html>
+>>>>>>> fea2b45 (Default)

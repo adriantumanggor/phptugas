@@ -18,8 +18,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     // Buat query untuk menyimpan data ke dalam database
+<<<<<<< HEAD
     $query = "INSERT INTO anggota (nama, email, nrp, jenis_kelamin, jurusan, alamat, no_hp, asal_sma, mata_kuliah_favorit, hoki) 
               VALUES ('$nama', '$email', '$nrp', '$jenis_kelamin', '$jurusan', '$alamat', '$no_hp', '$asal_sma', '$mata_kuliah_favorit', '$hoki')";
+=======
+    $query = "INSERT INTO anggota (nama, email, nrp, jenis_kelamin, jurusan, alamat, no_hp, asal_sma, mata_kuliah_favorit) 
+              VALUES ('$nama', '$email', '$nrp', '$jenis_kelamin', '$jurusan', '$alamat', '$no_hp', '$asal_sma', '$mata_kuliah_favorit')";
+>>>>>>> fea2b45 (Default)
 
     // Jalankan query
     if (mysqli_query($conn, $query)) {
