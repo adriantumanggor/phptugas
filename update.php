@@ -7,6 +7,7 @@
     <title>Update Data Anggota</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -41,7 +42,6 @@
         </div>
     </section>
     <script src="script.js"></script>
-
-    </body>
+</body>
 
 </html>

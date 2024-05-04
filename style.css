@@ -12,7 +12,6 @@ body {
   flex: 1; /* Konten akan mengisi semua ruang yang tersedia */
 }
 
-
 @font-face {
   font-family: alek;
   src: url('/Buycat.ttf');

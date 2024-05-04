@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 <?php
 include 'configg.php';
 
