@@ -39,10 +39,6 @@ body {
 }
 
 .navbar-item {
-<<<<<<< HEAD
-=======
-  color: #fff; /* Warna teks navbar */
->>>>>>> fea2b45 (Default)
   font-weight: 500; /* Ketebalan teks navbar */
   margin-right: 20px; /* Jarak antara setiap item navbar */
   text-decoration: none; /* Hapus garis bawah default pada tautan */

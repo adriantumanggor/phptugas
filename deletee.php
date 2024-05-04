@@ -1,7 +1,6 @@
 <?php
 include 'configg.php';
 
-<<<<<<< HEAD
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
@@ -29,20 +28,6 @@ if (isset($_GET['id'])) {
                 window.location.href = "hapus.php";
               </script>';
         exit;
-=======
-if(isset($_GET['id'])) {
-    $id = $_GET['id'];
-    
-    // Query untuk menghapus data berdasarkan ID
-    $query = "DELETE FROM anggota WHERE id = $id";
-    
-    // Eksekusi query
-    if(mysqli_query($conn, $query)) {
-        header("Location: index.php");
-        exit;
-    } else {
-        echo "Error: " . mysqli_error($conn);
->>>>>>> fea2b45 (Default)
     }
 } else {
     echo "ID tidak ditemukan.";
