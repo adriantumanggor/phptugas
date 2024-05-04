@@ -38,7 +38,6 @@
   <section id="input" class="section">
     <div class="container">
       <h2 class="title">Input Data Baru</h2>
-
       <form action="createe.php" method="POST">
 
         <div class="field is-horizontal">
